@@ -8,6 +8,8 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   color:white;
+  padding-bottom: 3%;
+  height: 500px;
 }
 #subscribe{
   background-image: url("../images/backgrounds/subscribe.jpg");
@@ -16,6 +18,13 @@ body{
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: center;
+}
+.col1{
+  width: 150px;
+}
+.row1{
+  height: 100px;
 }
 #happy-hour{
   background-color: #e5e8e8;
@@ -34,6 +43,7 @@ body{
   background-size: cover;
   height:100%;
   color:white;
+  padding-bottom: 3%;
 }
 #lunch{
   background-image: url("../images/foodtop/lunch.jpg");
@@ -41,6 +51,7 @@ body{
   background-repeat: no-repeat;
   color: white;
   height:100%;
+  padding-bottom: 3%;
 }
 #dinner{
   background-image: url("../images/foodtop/dinner.jpg");
@@ -48,6 +59,7 @@ body{
   background-size: cover;
   color:white;
   height:100%;
+  padding-bottom: 3%;
 }
 .row{
   margin: 0;
