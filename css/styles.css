@@ -1,6 +1,9 @@
 header{
   text-align: center;
 }
+h1,h2,h3,p{
+  padding: 0px;
+}
 #startup{
   align-content: center;
   text-align: center;
@@ -81,6 +84,15 @@ header{
 .foodtxt2{
   text-align: right;
 }
+
 #menu{
-  background-image: url("../images/backgrounds/foodsBg.jpg");
+  background-image: url("../images/backgrounds/foodsBg.jpg") ;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-nav{
+  padding-top: 3%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
