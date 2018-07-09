@@ -8,8 +8,7 @@
   <title>Anita's Kitchen | Welcome</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
+
 </head>
 
 <body>
@@ -94,17 +93,59 @@
 
   <div class="contain" id="menu">
     <div class="row" class="menu-nav">
-      <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Fast Food</a>
-        </li>
-        <li class="nav nav-tabs">
-          <a class="nav-link active" href="#">Drinks</a>
-        </li>
-      </ul>
+      <div class="container" style="background-color: white">
+        <div class="topnav">
+          <a href="#" class="col-md-3">Fast Foods</a>
+          <a href="#" class="col-md-3">Drinks</a>
+          <a href="#" class="col-md-3">Chicken</a>
+          <a href="#" class="col-md-3">Rice</a>
+        </div>
+        <div id="menufood">
+      <div class="col-md-4" style="background-color: white">
+        <img src="images/fastfood/chickenBurger.jpg">
+        <h3>Chicken Burger</h3>
+      </div>
+      <div class="col-md-4">
+        <img src="images/fastfood/beefBurger.jpg">
+        <h3>Beef Burger</h3>
+      </div>
+      <div class="col-md-4">
+        <img src="images/fastfood/chickenPizza.jpg">
+        <h3>Chicken Pizza</h3>
+      </div>
+    </div>
+  </div>
     </div>
   </div>
 
+  <div class="contain" class="card" class="customer" >
+    <div class="row" style="border-style:solid" "padding:100%">
+      <div class="col-md-6">
+        <div class="client">
+        <h1 style="color: #FF5733">Our Happy Customers</h1>
+        <h3>George Richard</h3>
+        <div>
+          <p>Great food! Menu is awesome, there foods are not only great but also in the right price. i'll highly recommend them :)</p>
+        </div>
+        <div class="row">
+          <a href="#" class="previous">&#8249;</a>
+          <img src="images/customers/p1.png">
+          <img src="images/customers/p2.png">
+          <img src="images/customers/p3.png">
+          <a href="#" class="next">&#8250;</a>
+        </div>
+      </div>
+    </div>
+      <div class="about" class="col-md-6">
+        <h1 style="color: #FF5733">About Menu</h1>
+        <p>We are menu a little team of 7 members.</p>
+        <p>Ut wisi enim ad minim veniam, quis nos trudexer ci tation ullamcorper suscipit lob ortis nisl ut aliquip ex ea commodo conse quat. Duisau tem vel eum iriure dolor in.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
